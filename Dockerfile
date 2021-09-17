@@ -30,4 +30,3 @@ RUN mv /sbin/dhclient /usr/sbin/dhclient
 COPY entrypoint.sh /entrypoint.sh
 
 ENTRYPOINT ["/entrypoint.sh"]
-CMD ["--help"]
